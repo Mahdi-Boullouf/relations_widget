@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:relation_widgets/relation_widgets.dart';
 
-class LoadWidget extends RelationshipWidget {
+class LoadWidget extends RelationWidget {
   const LoadWidget({
     super.key,
     required this.loadStatus,

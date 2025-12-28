@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:relation_widgets/relation_widgets.dart';
 
-class ManyToOneWidget extends RelationshipWidget {
+class ManyToOneWidget extends RelationWidget {
   const ManyToOneWidget({super.key, required this.conditionalChildren});
   final List<ConditionalElement> conditionalChildren;
   @override

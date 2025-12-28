@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:relation_widgets/relation_widgets.dart';
 
-class EnemiesWidget extends RelationshipWidget {
+class EnemiesWidget extends RelationWidget {
   const EnemiesWidget({
     super.key,
     required this.firstWidget,
